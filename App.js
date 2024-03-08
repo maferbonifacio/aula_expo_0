@@ -6,7 +6,7 @@ import Exemplo_0 from './.expo/compact/exemplo_0';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo_0 />
+      <Exemplo_1 />
       <StatusBar style="auto" />
     </View>
   );

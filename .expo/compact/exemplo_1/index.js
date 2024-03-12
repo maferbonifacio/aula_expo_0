@@ -6,7 +6,6 @@ function Exemplo_1 () {
     return(
         <View style={styles.compact}>
             <Text style={styles.texto}>Minha primeira tela</Text>
-            <Text>Minha primeira tela</Text>
         </View>
     );
 }

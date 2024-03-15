@@ -6,7 +6,7 @@ function Atividade_1 () {
     return(
         <View style={styles.compact}>
             <Text style={styles.texto}>Atividade 1</Text>
-            <Text style={styles.texto}>Maria Fernanda</Text>
+            <Text style={styles.texto2}>Maria Fernanda</Text>
         </View>
     );
 }

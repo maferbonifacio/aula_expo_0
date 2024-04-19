@@ -5,11 +5,12 @@ import Exemplo_0 from './.expo/compact/exemplo_1';
 import Exemplo2 from './.expo/compact/exemplo_2'; 
 
 import Atividade_1 from './.expo/compact/atividade_1';
+import Atividade_2 from './.expo/compact/atividade_2';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo2 />
+      <Atividade_2 />
       <StatusBar style="auto" />
     </View>
   );

@@ -4,14 +4,21 @@ import Mensagem from './mensagem';
 
 import styles from './styles';
 
-export default function Atividade_2 () {
+function Atividade2 () {
     return(
         <View style={styles.container}>
-             <Text style={styles.titulo}>
-                Atividade 2
-             </Text>
+            <Text style={styles.titulo}>Marcas de Perfume!</Text>
+
+            <Mensagem nome='Agátta' />
+            <Mensagem nome='Eudora' />
+            <Mensagem nome='Forever Liss' />
+            <Mensagem nome='Givenchy' />
+            <Mensagem nome='Intimus' />
+            <Mensagem nome='Johnson & Johnson' />
+
+
         </View>
     );
 }
 
-export default Atividade_2;
+export default Atividade2;

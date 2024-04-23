@@ -2,20 +2,28 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        backgroundColor: '#fff',
+        height: '100%',
+        width: '100%',
+        borderRadius: 20,
+        alignItems: 'center',
+        padding: 8,
     },
     titulo: {
         fontSize: 30,
-    }
+        fontWeight: 'newromantics',
+        marginVertical: 20,
+    },
     mensagem: {
         fontSize: 25,
         margin: 10,
-        color: 'blue',
+        color: '#59b3b0',
     },
     viewmensagem: {
         borderWidth: 2,
-        borderColor: '#ff2bc0',
+        borderColor: '#59b3b0',
         borderRadius: 20,
+        fontWeight: 'bold',
     },
 });
 

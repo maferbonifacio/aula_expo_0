@@ -11,7 +11,8 @@ const styles = StyleSheet.create({
     },
     titulo: {
         fontSize: 30,
-        fontWeight: 'newromantics',
+        fontFamily: 'newromantics',
+        fontWeight: 'bold',
         marginVertical: 20,
     },
     mensagem: {

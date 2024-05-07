@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         fonytSize: 30,
         fontWeight: 'bold',
         marginVertical: 20,
-        color: '#673AB7',
+        color: '#bf86b4',
     },
     botao: {
         borderWidth: 3,
@@ -20,6 +20,14 @@ const styles = StyleSheet.create({
         width: '80%',
         borderRadius: 20,
         alignItems: 'center',
+        borderColor: '#bf86b4',
+    },
+    txtBotao: {
+        fontSize: 25,
+        color: '#bf86b4',
+    },
+    botaoPress: {
+        backgroundColor: 'white',
     },
 });
 

@@ -17,20 +17,20 @@ const styles = StyleSheet.create({
     botao: {
         borderWidth: 3,
         padding: 10,
-        width: '10%',
+        width: '40%',
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#438f8f',
-        marginRight: '5px',
+        marginHorizontal:20,
     },
     botao2: {
         borderWidth: 3,
         padding: 10,
-        width: '10%',
+        width: '40%',
         borderRadius: 20,
         alignItems: 'center',
-        borderColor: 'yellow',
-        marginLeft: '400px',
+        borderColor: '#438f8f',
+        marginHorizontal:20,
     },
     txtBotao: {
         fontSize: 25,
@@ -40,10 +40,15 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     txtNumero: {
-        fontSize: 35,
+        fontSize: 60,
         color: '#bf86b4',
         marginVertical: 10,
-    }
+    },
+    numerocontainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
 });
 
 export default styles;

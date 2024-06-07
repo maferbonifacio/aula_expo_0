@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     titulo: {
-        fonytSize: 30,
+        fonytSize: 50,
         fontWeight: 'bold',
         marginVertical: 20,
         color: '#bf86b4',
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     botao: {
         borderWidth: 3,
         padding: 10,
-        width: '40%',
+        width: '35%',
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#438f8f',
@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
     botao2: {
         borderWidth: 3,
         padding: 10,
-        width: '40%',
+        width: '35%',
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#438f8f',
         marginHorizontal:20,
     },
     txtBotao: {
-        fontSize: 25,
+        fontSize: 20,
         color: '#bf86b4',
     },
     botaoPress: {
